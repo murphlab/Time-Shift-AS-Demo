@@ -37,7 +37,6 @@
 		BE0EFDBB17680987004B2E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDB917680987004B2E9A /* InfoPlist.strings */; };
 		BE0EFDBE17680987004B2E9A /* Time_Shift_ASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0EFDBD17680987004B2E9A /* Time_Shift_ASTests.m */; };
 		BE0EFDC8176940B9004B2E9A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFDC7176940B9004B2E9A /* MapKit.framework */; };
-		BE0EFDCA17694D24004B2E9A /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDC917694D24004B2E9A /* README.TXT */; };
 		BE0EFDCE176952F5004B2E9A /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDCC176952F5004B2E9A /* text-list.png */; };
 		BE0EFDCF176952F5004B2E9A /* earth-usa.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDCD176952F5004B2E9A /* earth-usa.png */; };
 		BE0EFDDE176954B2004B2E9A /* thumbBolinas1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD2176954B2004B2E9A /* thumbBolinas1.png */; };
@@ -124,7 +123,6 @@
 		BE0EFDBC17680987004B2E9A /* Time_Shift_ASTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time_Shift_ASTests.h; sourceTree = "<group>"; };
 		BE0EFDBD17680987004B2E9A /* Time_Shift_ASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_Shift_ASTests.m; sourceTree = "<group>"; };
 		BE0EFDC7176940B9004B2E9A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		BE0EFDC917694D24004B2E9A /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
 		BE0EFDCC176952F5004B2E9A /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
 		BE0EFDCD176952F5004B2E9A /* earth-usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth-usa.png"; sourceTree = "<group>"; };
 		BE0EFDD2176954B2004B2E9A /* thumbBolinas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbBolinas1.png; sourceTree = "<group>"; };
@@ -237,7 +235,6 @@
 		BE0EFD8F17680987004B2E9A /* Time Shift AS */ = {
 			isa = PBXGroup;
 			children = (
-				BE0EFDC917694D24004B2E9A /* README.TXT */,
 				BE0EFDCB17694F93004B2E9A /* Icons */,
 				BE0EFDD117695452004B2E9A /* Thumbnails */,
 				BE0EFDD017695435004B2E9A /* Videos */,
@@ -432,7 +429,6 @@
 				BE0EFDA017680987004B2E9A /* Default-568h@2x.png in Resources */,
 				BE0EFDA317680987004B2E9A /* MainStoryboard_iPhone.storyboard in Resources */,
 				BE0EFDA617680987004B2E9A /* MainStoryboard_iPad.storyboard in Resources */,
-				BE0EFDCA17694D24004B2E9A /* README.TXT in Resources */,
 				BE0EFDCE176952F5004B2E9A /* text-list.png in Resources */,
 				BE0EFDCF176952F5004B2E9A /* earth-usa.png in Resources */,
 				BE0EFDDE176954B2004B2E9A /* thumbBolinas1.png in Resources */,
