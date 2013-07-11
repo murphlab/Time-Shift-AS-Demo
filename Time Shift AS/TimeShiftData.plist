@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>SF from Twin Peaks</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>This was shot from Twin Peaks towards Downtown San Francisco and the Mission, just after a rainstorm.  I wanted to capture the dynamics of fog, clouds, and distant sheets of rain, as the rainclouds gradually burned off, filtering light onto the cityscape.</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailSF.jpg</string>
+		<key>mapFile</key>
+		<string>mapPier15.jpg</string>
+		<key>lat</key>
+		<real>37.754726</real>
+		<key>long</key>
+		<real>-122.446253</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Bolinas Lagoon</string>
+		<key>location</key>
+		<string>Bolinas, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>Bolinas Lagoon is a tidal estuary, about 13 miles North of San Francisco, occupying a trough formed by the San Andreas fault. This time-lapse video reveals its tidal cycle over the course of day, from sunrise to sunset.</string>
+		<key>thumbnailFile</key>
+		<string>thumbBolinas1.png</string>
+		<key>mapFile</key>
+		<string>mapBolinas1.png</string>
+		<key>lat</key>
+		<real>37.915628</real>
+		<key>long</key>
+		<real>-122.670679</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Tennessee Beach</string>
+		<key>location</key>
+		<string>Marin County, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>Tennesse Beach is a short distance North of San Francisco, but feels a world apart, particularly when shrouded in fog. For this video, I shot each frame at a long exposure to smooth out the smaller waves and emphasize the larger, slower waves and tidal movements. Notice how the fog burns off and the horizon brightens over the course of the video.</string>
+		<key>thumbnailFile</key>
+		<string>thumbTennessee.jpg</string>
+		<key>mapFile</key>
+		<string>mapTennessee1.png</string>
+		<key>lat</key>
+		<real>37.841479</real>
+		<key>long</key>
+		<real>-122.551793</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sutro Baths Surf</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>I shot these images of the surf near the ruins of Sutro Baths using a long exposure, then stretched out the resulting video, so that one can observe each frame. The long exposure gives the crashing surf a a soft, fog-like appearance.</string>
+		<key>thumbnailFile</key>
+		<string>thumbSutro1.png</string>
+		<key>mapFile</key>
+		<string>mapSutro.jpg</string>
+		<key>lat</key>
+		<real>37.780276</real>
+		<key>long</key>
+		<real>-122.514178</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sutro Baths Sunset</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>Sun setting over the ruins of Sutro Baths.</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailSutroSunset.jpg</string>
+		<key>mapFile</key>
+		<string>mapSutro.jpg</string>
+		<key>lat</key>
+		<real>37.7797</real>
+		<key>long</key>
+		<real>-122.513212</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Pier 15 Tide</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>Tides vary considerably, with some tidal cycles of only a few feet, and others that reach extreme highs  and lows. This video was shot during a particuarly high and low tide, between Piers 15 and 17, just out the West window of the Observatory.  Notice the exposed concrete pilings at low tide, which are eventually topped when the water rises. 
+</string>
+		<key>thumbnailFile</key>
+		<string>thumbPiersNight1.png</string>
+		<key>mapFile</key>
+		<string>mapPier15.jpg</string>
+		<key>lat</key>
+		<real>37.801324</real>
+		<key>long</key>
+		<real>-122.398714</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ship Docking</string>
+		<key>location</key>
+		<string>Oakland, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>&lt;P&gt;A cargo ship arrives at the Port of Oakland, gently guided into its berth by tugboats.&lt;/P&gt;&lt;p&gt;The Port of Oakland is visible from the Observatory to the Northeast, beyond the Bay Bridge.&lt;/p&gt;</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailShipArriving.jpg</string>
+		<key>mapFile</key>
+		<string>mapPortOfOak.jpg</string>
+		<key>lat</key>
+		<real>37.798633</real>
+		<key>long</key>
+		<real>-122.325125</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ships Unloading</string>
+		<key>location</key>
+		<string>Oakland, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>&lt;P&gt;Cargo ships load and unload at the Port of Oakland&lt;/p&gt;&lt;p&gt;The Port of Oakland is visible from the Observatory to the Northeast, beyond the Bay Bridge.&lt;/p&gt;</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailShipsLoading.jpg</string>
+		<key>mapFile</key>
+		<string>mapPortOfOak.jpg</string>
+		<key>lat</key>
+		<real>37.798693</real>
+		<key>long</key>
+		<real>-122.324905</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Ships Turning</string>
+		<key>location</key>
+		<string>Oakland, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>&lt;p&gt;Two scenes of cargo ships turning in the Oakland Inner Harbor, one by day, and the other at night.  Cargo ships need the assistance of tug boats to navigate this narrow passage. Because these large ships can&apos;t navigate too far in reverse, they need to be turned 180 degrees by the tugs, either on their way in or out.&lt;/p&gt;&lt;p&gt;The Port of Oakland is visible from the Observatory to the Northeast, beyond the Bay Bridge.&lt;/p&gt;</string>
+		<key>thumbnailFile</key>
+		<string>thumbOakNight1.png</string>
+		<key>mapFile</key>
+		<string>mapPortOfOak.jpg</string>
+		<key>lat</key>
+		<real>37.792999</real>
+		<key>long</key>
+		<real>-122.288904</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Commuters</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>Downtown San Francisco during the morning commute.</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailMUNI.jpg</string>
+		<key>mapFile</key>
+		<string>mapPier15.jpg</string>
+		<key>lat</key>
+		<real>37.790591</real>
+		<key>long</key>
+		<real>-122.399712</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>SFO at Night</string>
+		<key>location</key>
+		<string>San Francisco, CA</string>
+		<key>movieFile</key>
+		<string>Time Shift Placeholder.m4v</string>
+		<key>description</key>
+		<string>These scenes were shot from a small public park on the edge of the runways of San Francisco International Airport.</string>
+		<key>thumbnailFile</key>
+		<string>thumbnailSFO.jpg</string>
+		<key>mapFile</key>
+		<string>mapSFO.jpg</string>
+		<key>lat</key>
+		<real>37.616271</real>
+		<key>long</key>
+		<real>-122.372761</real>
+	</dict>
+</array>
+</plist>

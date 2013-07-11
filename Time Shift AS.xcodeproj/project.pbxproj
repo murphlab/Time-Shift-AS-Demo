@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE009A9417696E30009CCC6F /* TimeShiftData.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE009A9317696E30009CCC6F /* TimeShiftData.plist */; };
+		BE009A971769726B009CCC6F /* VideoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009A961769726B009CCC6F /* VideoListTableViewController.m */; };
+		BE009A9F17698969009CCC6F /* DataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009A9E17698969009CCC6F /* DataSingleton.m */; };
+		BE009AA21769A58E009CCC6F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009AA11769A58E009CCC6F /* MapViewController.m */; };
+		BE009AA51769A6A0009CCC6F /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009AA41769A6A0009CCC6F /* MyNavigationController.m */; };
+		BE009AAB176A593E009CCC6F /* VideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009AAA176A593E009CCC6F /* VideoDetailViewController.m */; };
+		BE009AAF176A7ABB009CCC6F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE009AAE176A7ABB009CCC6F /* MediaPlayer.framework */; };
+		BE009AC0176B8AF7009CCC6F /* VideoItemTabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009ABF176B8AF7009CCC6F /* VideoItemTabelCell.m */; };
+		BE009AC2176BCAA6009CCC6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE009AC1176BCAA6009CCC6F /* CoreLocation.framework */; };
+		BE009AC4176BD953009CCC6F /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = BE009AC3176BD953009CCC6F /* info.png */; };
+		BE009AC7176D464B009CCC6F /* MyMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE009AC6176D464B009CCC6F /* MyMapAnnotation.m */; };
+		BE08E581178DF9CA006798FA /* play-button2.png in Resources */ = {isa = PBXBuildFile; fileRef = BE08E580178DF9CA006798FA /* play-button2.png */; };
+		BE08E583178F4707006798FA /* Time Shift Placeholder.m4v in Resources */ = {isa = PBXBuildFile; fileRef = BE08E582178F4707006798FA /* Time Shift Placeholder.m4v */; };
+		BE0EFD8A17680987004B2E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFD8917680987004B2E9A /* UIKit.framework */; };
+		BE0EFD8C17680987004B2E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFD8B17680987004B2E9A /* Foundation.framework */; };
+		BE0EFD8E17680987004B2E9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFD8D17680987004B2E9A /* CoreGraphics.framework */; };
+		BE0EFD9417680987004B2E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFD9217680987004B2E9A /* InfoPlist.strings */; };
+		BE0EFD9617680987004B2E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0EFD9517680987004B2E9A /* main.m */; };
+		BE0EFD9A17680987004B2E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0EFD9917680987004B2E9A /* AppDelegate.m */; };
+		BE0EFD9C17680987004B2E9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFD9B17680987004B2E9A /* Default.png */; };
+		BE0EFD9E17680987004B2E9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFD9D17680987004B2E9A /* Default@2x.png */; };
+		BE0EFDA017680987004B2E9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFD9F17680987004B2E9A /* Default-568h@2x.png */; };
+		BE0EFDA317680987004B2E9A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDA117680987004B2E9A /* MainStoryboard_iPhone.storyboard */; };
+		BE0EFDA617680987004B2E9A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDA417680987004B2E9A /* MainStoryboard_iPad.storyboard */; };
+		BE0EFDB117680987004B2E9A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFDB017680987004B2E9A /* SenTestingKit.framework */; };
+		BE0EFDB217680987004B2E9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFD8917680987004B2E9A /* UIKit.framework */; };
+		BE0EFDB317680987004B2E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFD8B17680987004B2E9A /* Foundation.framework */; };
+		BE0EFDBB17680987004B2E9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDB917680987004B2E9A /* InfoPlist.strings */; };
+		BE0EFDBE17680987004B2E9A /* Time_Shift_ASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0EFDBD17680987004B2E9A /* Time_Shift_ASTests.m */; };
+		BE0EFDC8176940B9004B2E9A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0EFDC7176940B9004B2E9A /* MapKit.framework */; };
+		BE0EFDCA17694D24004B2E9A /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDC917694D24004B2E9A /* README.TXT */; };
+		BE0EFDCE176952F5004B2E9A /* text-list.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDCC176952F5004B2E9A /* text-list.png */; };
+		BE0EFDCF176952F5004B2E9A /* earth-usa.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDCD176952F5004B2E9A /* earth-usa.png */; };
+		BE0EFDDE176954B2004B2E9A /* thumbBolinas1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD2176954B2004B2E9A /* thumbBolinas1.png */; };
+		BE0EFDDF176954B2004B2E9A /* thumbnailMUNI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD3176954B2004B2E9A /* thumbnailMUNI.jpg */; };
+		BE0EFDE0176954B2004B2E9A /* thumbnailSF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD4176954B2004B2E9A /* thumbnailSF.jpg */; };
+		BE0EFDE1176954B2004B2E9A /* thumbnailSFO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD5176954B2004B2E9A /* thumbnailSFO.jpg */; };
+		BE0EFDE2176954B2004B2E9A /* thumbnailShipArriving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD6176954B2004B2E9A /* thumbnailShipArriving.jpg */; };
+		BE0EFDE3176954B2004B2E9A /* thumbnailShipsLoading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD7176954B2004B2E9A /* thumbnailShipsLoading.jpg */; };
+		BE0EFDE4176954B2004B2E9A /* thumbnailSutroSunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD8176954B2004B2E9A /* thumbnailSutroSunset.jpg */; };
+		BE0EFDE5176954B2004B2E9A /* thumbOak1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDD9176954B2004B2E9A /* thumbOak1.png */; };
+		BE0EFDE6176954B2004B2E9A /* thumbOakNight1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDDA176954B2004B2E9A /* thumbOakNight1.png */; };
+		BE0EFDE7176954B2004B2E9A /* thumbPiersNight1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDDB176954B2004B2E9A /* thumbPiersNight1.png */; };
+		BE0EFDE8176954B2004B2E9A /* thumbSutro1.png in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDDC176954B2004B2E9A /* thumbSutro1.png */; };
+		BE0EFDE9176954B2004B2E9A /* thumbTennessee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE0EFDDD176954B2004B2E9A /* thumbTennessee.jpg */; };
+		BE1E33F5177A78F1008C0B38 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1E33F4177A78F1008C0B38 /* VideoPlayerViewController.m */; };
+		BE36651D178C92D8003FE603 /* VideoDetailCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36651C178C92D8003FE603 /* VideoDetailCollectionViewController.m */; };
+		BE473DC5178394410028C47F /* multiple.png in Resources */ = {isa = PBXBuildFile; fileRef = BE473DC4178394410028C47F /* multiple.png */; };
+		BE4F2001178CBF8A00282CBD /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2000178CBF8A00282CBD /* about.html */; };
+		BE4F2003178CC50800282CBD /* exhibit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2002178CC50800282CBD /* exhibit.jpg */; };
+		BE4F2006178CC65400282CBD /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4F2005178CC65400282CBD /* AboutViewController.m */; };
+		BE4F2012178CEA5400282CBD /* TSIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2011178CEA5400282CBD /* TSIcon57x57.png */; };
+		BE4F2014178CEA5B00282CBD /* TSIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2013178CEA5B00282CBD /* TSIcon114x114.png */; };
+		BE4F2016178CFC2A00282CBD /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2015178CFC2A00282CBD /* Default-Portrait@2x~ipad.png */; };
+		BE4F2018178CFC4A00282CBD /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2017178CFC4A00282CBD /* Default-Landscape@2x~ipad.png */; };
+		BE4F201A178CFC5200282CBD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F2019178CFC5200282CBD /* Default-Portrait~ipad.png */; };
+		BE4F201C178CFC5600282CBD /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F201B178CFC5600282CBD /* Default-Landscape~ipad.png */; };
+		BE4F201E178D17A900282CBD /* TSIcon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F201D178D17A900282CBD /* TSIcon144x144.png */; };
+		BE4F2020178D17AE00282CBD /* TSIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = BE4F201F178D17AE00282CBD /* TSIcon72x72.png */; };
+		BE4F2021178D3D6F00282CBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2974A2177DCCD30075B9F5 /* QuartzCore.framework */; };
+		BEC83DB817839C7F0077C2C0 /* VideoDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC83DB717839C7F0077C2C0 /* VideoDetailCell.m */; };
+		BECE293F178DDD4B00680B11 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECE293E178DDD4B00680B11 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0EFDB417680987004B2E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0EFD7E17680987004B2E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0EFD8517680987004B2E9A;
+			remoteInfo = "Time Shift AS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE009A9317696E30009CCC6F /* TimeShiftData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TimeShiftData.plist; sourceTree = "<group>"; };
+		BE009A951769726B009CCC6F /* VideoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoListTableViewController.h; sourceTree = "<group>"; };
+		BE009A961769726B009CCC6F /* VideoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoListTableViewController.m; sourceTree = "<group>"; };
+		BE009A9D17698969009CCC6F /* DataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSingleton.h; sourceTree = "<group>"; };
+		BE009A9E17698969009CCC6F /* DataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSingleton.m; sourceTree = "<group>"; };
+		BE009AA01769A58E009CCC6F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		BE009AA11769A58E009CCC6F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		BE009AA31769A6A0009CCC6F /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		BE009AA41769A6A0009CCC6F /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		BE009AA9176A593E009CCC6F /* VideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailViewController.h; sourceTree = "<group>"; };
+		BE009AAA176A593E009CCC6F /* VideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailViewController.m; sourceTree = "<group>"; };
+		BE009AAE176A7ABB009CCC6F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BE009ABE176B8AF6009CCC6F /* VideoItemTabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoItemTabelCell.h; sourceTree = "<group>"; };
+		BE009ABF176B8AF7009CCC6F /* VideoItemTabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoItemTabelCell.m; sourceTree = "<group>"; };
+		BE009AC1176BCAA6009CCC6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE009AC3176BD953009CCC6F /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		BE009AC5176D464A009CCC6F /* MyMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMapAnnotation.h; sourceTree = "<group>"; };
+		BE009AC6176D464B009CCC6F /* MyMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMapAnnotation.m; sourceTree = "<group>"; };
+		BE08E580178DF9CA006798FA /* play-button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button2.png"; sourceTree = "<group>"; };
+		BE08E582178F4707006798FA /* Time Shift Placeholder.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Time Shift Placeholder.m4v"; sourceTree = "<group>"; };
+		BE0EFD8617680987004B2E9A /* Time Shift AS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Shift AS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0EFD8917680987004B2E9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE0EFD8B17680987004B2E9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE0EFD8D17680987004B2E9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE0EFD9117680987004B2E9A /* Time Shift AS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time Shift AS-Info.plist"; sourceTree = "<group>"; };
+		BE0EFD9317680987004B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE0EFD9517680987004B2E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE0EFD9717680987004B2E9A /* Time Shift AS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Time Shift AS-Prefix.pch"; sourceTree = "<group>"; };
+		BE0EFD9817680987004B2E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE0EFD9917680987004B2E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE0EFD9B17680987004B2E9A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE0EFD9D17680987004B2E9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE0EFD9F17680987004B2E9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE0EFDA217680987004B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BE0EFDA517680987004B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BE0EFDAF17680987004B2E9A /* Time Shift ASTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Shift ASTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0EFDB017680987004B2E9A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE0EFDB817680987004B2E9A /* Time Shift ASTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Time Shift ASTests-Info.plist"; sourceTree = "<group>"; };
+		BE0EFDBA17680987004B2E9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE0EFDBC17680987004B2E9A /* Time_Shift_ASTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Time_Shift_ASTests.h; sourceTree = "<group>"; };
+		BE0EFDBD17680987004B2E9A /* Time_Shift_ASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_Shift_ASTests.m; sourceTree = "<group>"; };
+		BE0EFDC7176940B9004B2E9A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BE0EFDC917694D24004B2E9A /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		BE0EFDCC176952F5004B2E9A /* text-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list.png"; sourceTree = "<group>"; };
+		BE0EFDCD176952F5004B2E9A /* earth-usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "earth-usa.png"; sourceTree = "<group>"; };
+		BE0EFDD2176954B2004B2E9A /* thumbBolinas1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbBolinas1.png; sourceTree = "<group>"; };
+		BE0EFDD3176954B2004B2E9A /* thumbnailMUNI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailMUNI.jpg; sourceTree = "<group>"; };
+		BE0EFDD4176954B2004B2E9A /* thumbnailSF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailSF.jpg; sourceTree = "<group>"; };
+		BE0EFDD5176954B2004B2E9A /* thumbnailSFO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailSFO.jpg; sourceTree = "<group>"; };
+		BE0EFDD6176954B2004B2E9A /* thumbnailShipArriving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailShipArriving.jpg; sourceTree = "<group>"; };
+		BE0EFDD7176954B2004B2E9A /* thumbnailShipsLoading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailShipsLoading.jpg; sourceTree = "<group>"; };
+		BE0EFDD8176954B2004B2E9A /* thumbnailSutroSunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbnailSutroSunset.jpg; sourceTree = "<group>"; };
+		BE0EFDD9176954B2004B2E9A /* thumbOak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbOak1.png; sourceTree = "<group>"; };
+		BE0EFDDA176954B2004B2E9A /* thumbOakNight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbOakNight1.png; sourceTree = "<group>"; };
+		BE0EFDDB176954B2004B2E9A /* thumbPiersNight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbPiersNight1.png; sourceTree = "<group>"; };
+		BE0EFDDC176954B2004B2E9A /* thumbSutro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbSutro1.png; sourceTree = "<group>"; };
+		BE0EFDDD176954B2004B2E9A /* thumbTennessee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbTennessee.jpg; sourceTree = "<group>"; };
+		BE1E33F3177A78F1008C0B38 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		BE1E33F4177A78F1008C0B38 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		BE2974A2177DCCD30075B9F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE36651B178C92D8003FE603 /* VideoDetailCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailCollectionViewController.h; sourceTree = "<group>"; };
+		BE36651C178C92D8003FE603 /* VideoDetailCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailCollectionViewController.m; sourceTree = "<group>"; };
+		BE473DC4178394410028C47F /* multiple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiple.png; sourceTree = "<group>"; };
+		BE4F2000178CBF8A00282CBD /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		BE4F2002178CC50800282CBD /* exhibit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exhibit.jpg; sourceTree = "<group>"; };
+		BE4F2004178CC65300282CBD /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		BE4F2005178CC65400282CBD /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		BE4F2011178CEA5400282CBD /* TSIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSIcon57x57.png; sourceTree = "<group>"; };
+		BE4F2013178CEA5B00282CBD /* TSIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSIcon114x114.png; sourceTree = "<group>"; };
+		BE4F2015178CFC2A00282CBD /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		BE4F2017178CFC4A00282CBD /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		BE4F2019178CFC5200282CBD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		BE4F201B178CFC5600282CBD /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		BE4F201D178D17A900282CBD /* TSIcon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSIcon144x144.png; sourceTree = "<group>"; };
+		BE4F201F178D17AE00282CBD /* TSIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TSIcon72x72.png; sourceTree = "<group>"; };
+		BEC83DB617839C7F0077C2C0 /* VideoDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDetailCell.h; sourceTree = "<group>"; };
+		BEC83DB717839C7F0077C2C0 /* VideoDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDetailCell.m; sourceTree = "<group>"; };
+		BECE293E178DDD4B00680B11 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0EFD8317680987004B2E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BECE293F178DDD4B00680B11 /* AVFoundation.framework in Frameworks */,
+				BE4F2021178D3D6F00282CBD /* QuartzCore.framework in Frameworks */,
+				BE009AC2176BCAA6009CCC6F /* CoreLocation.framework in Frameworks */,
+				BE009AAF176A7ABB009CCC6F /* MediaPlayer.framework in Frameworks */,
+				BE0EFDC8176940B9004B2E9A /* MapKit.framework in Frameworks */,
+				BE0EFD8A17680987004B2E9A /* UIKit.framework in Frameworks */,
+				BE0EFD8C17680987004B2E9A /* Foundation.framework in Frameworks */,
+				BE0EFD8E17680987004B2E9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0EFDAB17680987004B2E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EFDB117680987004B2E9A /* SenTestingKit.framework in Frameworks */,
+				BE0EFDB217680987004B2E9A /* UIKit.framework in Frameworks */,
+				BE0EFDB317680987004B2E9A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0EFD7D17680987004B2E9A = {
+			isa = PBXGroup;
+			children = (
+				BECE293E178DDD4B00680B11 /* AVFoundation.framework */,
+				BE4F201F178D17AE00282CBD /* TSIcon72x72.png */,
+				BE4F201D178D17A900282CBD /* TSIcon144x144.png */,
+				BE4F201B178CFC5600282CBD /* Default-Landscape~ipad.png */,
+				BE4F2019178CFC5200282CBD /* Default-Portrait~ipad.png */,
+				BE4F2017178CFC4A00282CBD /* Default-Landscape@2x~ipad.png */,
+				BE4F2015178CFC2A00282CBD /* Default-Portrait@2x~ipad.png */,
+				BE4F2013178CEA5B00282CBD /* TSIcon114x114.png */,
+				BE4F2011178CEA5400282CBD /* TSIcon57x57.png */,
+				BE2974A2177DCCD30075B9F5 /* QuartzCore.framework */,
+				BE009AC1176BCAA6009CCC6F /* CoreLocation.framework */,
+				BE009AAE176A7ABB009CCC6F /* MediaPlayer.framework */,
+				BE0EFDC7176940B9004B2E9A /* MapKit.framework */,
+				BE0EFD8F17680987004B2E9A /* Time Shift AS */,
+				BE0EFDB617680987004B2E9A /* Time Shift ASTests */,
+				BE0EFD8817680987004B2E9A /* Frameworks */,
+				BE0EFD8717680987004B2E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0EFD8717680987004B2E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFD8617680987004B2E9A /* Time Shift AS.app */,
+				BE0EFDAF17680987004B2E9A /* Time Shift ASTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0EFD8817680987004B2E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFD8917680987004B2E9A /* UIKit.framework */,
+				BE0EFD8B17680987004B2E9A /* Foundation.framework */,
+				BE0EFD8D17680987004B2E9A /* CoreGraphics.framework */,
+				BE0EFDB017680987004B2E9A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE0EFD8F17680987004B2E9A /* Time Shift AS */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFDC917694D24004B2E9A /* README.TXT */,
+				BE0EFDCB17694F93004B2E9A /* Icons */,
+				BE0EFDD117695452004B2E9A /* Thumbnails */,
+				BE0EFDD017695435004B2E9A /* Videos */,
+				BE009A9317696E30009CCC6F /* TimeShiftData.plist */,
+				BE0EFDA117680987004B2E9A /* MainStoryboard_iPhone.storyboard */,
+				BE0EFDA417680987004B2E9A /* MainStoryboard_iPad.storyboard */,
+				BE009A9D17698969009CCC6F /* DataSingleton.h */,
+				BE009A9E17698969009CCC6F /* DataSingleton.m */,
+				BE009AA31769A6A0009CCC6F /* MyNavigationController.h */,
+				BE009AA41769A6A0009CCC6F /* MyNavigationController.m */,
+				BE009A951769726B009CCC6F /* VideoListTableViewController.h */,
+				BE009A961769726B009CCC6F /* VideoListTableViewController.m */,
+				BE009ABE176B8AF6009CCC6F /* VideoItemTabelCell.h */,
+				BE009ABF176B8AF7009CCC6F /* VideoItemTabelCell.m */,
+				BE009AA9176A593E009CCC6F /* VideoDetailViewController.h */,
+				BE009AAA176A593E009CCC6F /* VideoDetailViewController.m */,
+				BE36651B178C92D8003FE603 /* VideoDetailCollectionViewController.h */,
+				BE36651C178C92D8003FE603 /* VideoDetailCollectionViewController.m */,
+				BEC83DB617839C7F0077C2C0 /* VideoDetailCell.h */,
+				BEC83DB717839C7F0077C2C0 /* VideoDetailCell.m */,
+				BE009AA01769A58E009CCC6F /* MapViewController.h */,
+				BE009AA11769A58E009CCC6F /* MapViewController.m */,
+				BE009AC5176D464A009CCC6F /* MyMapAnnotation.h */,
+				BE009AC6176D464B009CCC6F /* MyMapAnnotation.m */,
+				BE1E33F3177A78F1008C0B38 /* VideoPlayerViewController.h */,
+				BE1E33F4177A78F1008C0B38 /* VideoPlayerViewController.m */,
+				BE4F2004178CC65300282CBD /* AboutViewController.h */,
+				BE4F2005178CC65400282CBD /* AboutViewController.m */,
+				BE4F1FFF178CBF3300282CBD /* About */,
+				BE0EFD9017680987004B2E9A /* Supporting Files */,
+			);
+			path = "Time Shift AS";
+			sourceTree = "<group>";
+		};
+		BE0EFD9017680987004B2E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFD9817680987004B2E9A /* AppDelegate.h */,
+				BE0EFD9917680987004B2E9A /* AppDelegate.m */,
+				BE0EFD9117680987004B2E9A /* Time Shift AS-Info.plist */,
+				BE0EFD9217680987004B2E9A /* InfoPlist.strings */,
+				BE0EFD9517680987004B2E9A /* main.m */,
+				BE0EFD9717680987004B2E9A /* Time Shift AS-Prefix.pch */,
+				BE0EFD9B17680987004B2E9A /* Default.png */,
+				BE0EFD9D17680987004B2E9A /* Default@2x.png */,
+				BE0EFD9F17680987004B2E9A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE0EFDB617680987004B2E9A /* Time Shift ASTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFDBC17680987004B2E9A /* Time_Shift_ASTests.h */,
+				BE0EFDBD17680987004B2E9A /* Time_Shift_ASTests.m */,
+				BE0EFDB717680987004B2E9A /* Supporting Files */,
+			);
+			path = "Time Shift ASTests";
+			sourceTree = "<group>";
+		};
+		BE0EFDB717680987004B2E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFDB817680987004B2E9A /* Time Shift ASTests-Info.plist */,
+				BE0EFDB917680987004B2E9A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE0EFDCB17694F93004B2E9A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				BE08E580178DF9CA006798FA /* play-button2.png */,
+				BE473DC4178394410028C47F /* multiple.png */,
+				BE0EFDCC176952F5004B2E9A /* text-list.png */,
+				BE0EFDCD176952F5004B2E9A /* earth-usa.png */,
+				BE009AC3176BD953009CCC6F /* info.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		BE0EFDD017695435004B2E9A /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				BE08E582178F4707006798FA /* Time Shift Placeholder.m4v */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		BE0EFDD117695452004B2E9A /* Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				BE0EFDD2176954B2004B2E9A /* thumbBolinas1.png */,
+				BE0EFDD3176954B2004B2E9A /* thumbnailMUNI.jpg */,
+				BE0EFDD4176954B2004B2E9A /* thumbnailSF.jpg */,
+				BE0EFDD5176954B2004B2E9A /* thumbnailSFO.jpg */,
+				BE0EFDD6176954B2004B2E9A /* thumbnailShipArriving.jpg */,
+				BE0EFDD7176954B2004B2E9A /* thumbnailShipsLoading.jpg */,
+				BE0EFDD8176954B2004B2E9A /* thumbnailSutroSunset.jpg */,
+				BE0EFDD9176954B2004B2E9A /* thumbOak1.png */,
+				BE0EFDDA176954B2004B2E9A /* thumbOakNight1.png */,
+				BE0EFDDB176954B2004B2E9A /* thumbPiersNight1.png */,
+				BE0EFDDC176954B2004B2E9A /* thumbSutro1.png */,
+				BE0EFDDD176954B2004B2E9A /* thumbTennessee.jpg */,
+			);
+			path = Thumbnails;
+			sourceTree = "<group>";
+		};
+		BE4F1FFF178CBF3300282CBD /* About */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F2002178CC50800282CBD /* exhibit.jpg */,
+				BE4F2000178CBF8A00282CBD /* about.html */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0EFD8517680987004B2E9A /* Time Shift AS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0EFDC117680987004B2E9A /* Build configuration list for PBXNativeTarget "Time Shift AS" */;
+			buildPhases = (
+				BE0EFD8217680987004B2E9A /* Sources */,
+				BE0EFD8317680987004B2E9A /* Frameworks */,
+				BE0EFD8417680987004B2E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Shift AS";
+			productName = "Time Shift AS";
+			productReference = BE0EFD8617680987004B2E9A /* Time Shift AS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0EFDAE17680987004B2E9A /* Time Shift ASTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0EFDC417680987004B2E9A /* Build configuration list for PBXNativeTarget "Time Shift ASTests" */;
+			buildPhases = (
+				BE0EFDAA17680987004B2E9A /* Sources */,
+				BE0EFDAB17680987004B2E9A /* Frameworks */,
+				BE0EFDAC17680987004B2E9A /* Resources */,
+				BE0EFDAD17680987004B2E9A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0EFDB517680987004B2E9A /* PBXTargetDependency */,
+			);
+			name = "Time Shift ASTests";
+			productName = "Time Shift ASTests";
+			productReference = BE0EFDAF17680987004B2E9A /* Time Shift ASTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0EFD7E17680987004B2E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ken Murphy";
+			};
+			buildConfigurationList = BE0EFD8117680987004B2E9A /* Build configuration list for PBXProject "Time Shift AS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE0EFD7D17680987004B2E9A;
+			productRefGroup = BE0EFD8717680987004B2E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0EFD8517680987004B2E9A /* Time Shift AS */,
+				BE0EFDAE17680987004B2E9A /* Time Shift ASTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0EFD8417680987004B2E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EFD9417680987004B2E9A /* InfoPlist.strings in Resources */,
+				BE0EFD9C17680987004B2E9A /* Default.png in Resources */,
+				BE0EFD9E17680987004B2E9A /* Default@2x.png in Resources */,
+				BE0EFDA017680987004B2E9A /* Default-568h@2x.png in Resources */,
+				BE0EFDA317680987004B2E9A /* MainStoryboard_iPhone.storyboard in Resources */,
+				BE0EFDA617680987004B2E9A /* MainStoryboard_iPad.storyboard in Resources */,
+				BE0EFDCA17694D24004B2E9A /* README.TXT in Resources */,
+				BE0EFDCE176952F5004B2E9A /* text-list.png in Resources */,
+				BE0EFDCF176952F5004B2E9A /* earth-usa.png in Resources */,
+				BE0EFDDE176954B2004B2E9A /* thumbBolinas1.png in Resources */,
+				BE0EFDDF176954B2004B2E9A /* thumbnailMUNI.jpg in Resources */,
+				BE0EFDE0176954B2004B2E9A /* thumbnailSF.jpg in Resources */,
+				BE0EFDE1176954B2004B2E9A /* thumbnailSFO.jpg in Resources */,
+				BE0EFDE2176954B2004B2E9A /* thumbnailShipArriving.jpg in Resources */,
+				BE0EFDE3176954B2004B2E9A /* thumbnailShipsLoading.jpg in Resources */,
+				BE0EFDE4176954B2004B2E9A /* thumbnailSutroSunset.jpg in Resources */,
+				BE0EFDE5176954B2004B2E9A /* thumbOak1.png in Resources */,
+				BE0EFDE6176954B2004B2E9A /* thumbOakNight1.png in Resources */,
+				BE0EFDE7176954B2004B2E9A /* thumbPiersNight1.png in Resources */,
+				BE0EFDE8176954B2004B2E9A /* thumbSutro1.png in Resources */,
+				BE0EFDE9176954B2004B2E9A /* thumbTennessee.jpg in Resources */,
+				BE009A9417696E30009CCC6F /* TimeShiftData.plist in Resources */,
+				BE009AC4176BD953009CCC6F /* info.png in Resources */,
+				BE473DC5178394410028C47F /* multiple.png in Resources */,
+				BE4F2001178CBF8A00282CBD /* about.html in Resources */,
+				BE4F2003178CC50800282CBD /* exhibit.jpg in Resources */,
+				BE4F2012178CEA5400282CBD /* TSIcon57x57.png in Resources */,
+				BE4F2014178CEA5B00282CBD /* TSIcon114x114.png in Resources */,
+				BE4F2016178CFC2A00282CBD /* Default-Portrait@2x~ipad.png in Resources */,
+				BE4F2018178CFC4A00282CBD /* Default-Landscape@2x~ipad.png in Resources */,
+				BE4F201A178CFC5200282CBD /* Default-Portrait~ipad.png in Resources */,
+				BE4F201C178CFC5600282CBD /* Default-Landscape~ipad.png in Resources */,
+				BE4F201E178D17A900282CBD /* TSIcon144x144.png in Resources */,
+				BE4F2020178D17AE00282CBD /* TSIcon72x72.png in Resources */,
+				BE08E581178DF9CA006798FA /* play-button2.png in Resources */,
+				BE08E583178F4707006798FA /* Time Shift Placeholder.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0EFDAC17680987004B2E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EFDBB17680987004B2E9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE0EFDAD17680987004B2E9A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0EFD8217680987004B2E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EFD9617680987004B2E9A /* main.m in Sources */,
+				BE0EFD9A17680987004B2E9A /* AppDelegate.m in Sources */,
+				BE009A971769726B009CCC6F /* VideoListTableViewController.m in Sources */,
+				BE009A9F17698969009CCC6F /* DataSingleton.m in Sources */,
+				BE009AA21769A58E009CCC6F /* MapViewController.m in Sources */,
+				BE009AA51769A6A0009CCC6F /* MyNavigationController.m in Sources */,
+				BE009AAB176A593E009CCC6F /* VideoDetailViewController.m in Sources */,
+				BE009AC0176B8AF7009CCC6F /* VideoItemTabelCell.m in Sources */,
+				BE009AC7176D464B009CCC6F /* MyMapAnnotation.m in Sources */,
+				BE1E33F5177A78F1008C0B38 /* VideoPlayerViewController.m in Sources */,
+				BEC83DB817839C7F0077C2C0 /* VideoDetailCell.m in Sources */,
+				BE36651D178C92D8003FE603 /* VideoDetailCollectionViewController.m in Sources */,
+				BE4F2006178CC65400282CBD /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0EFDAA17680987004B2E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0EFDBE17680987004B2E9A /* Time_Shift_ASTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0EFDB517680987004B2E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0EFD8517680987004B2E9A /* Time Shift AS */;
+			targetProxy = BE0EFDB417680987004B2E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0EFD9217680987004B2E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EFD9317680987004B2E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE0EFDA117680987004B2E9A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EFDA217680987004B2E9A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0EFDA417680987004B2E9A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EFDA517680987004B2E9A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BE0EFDB917680987004B2E9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0EFDBA17680987004B2E9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0EFDBF17680987004B2E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE0EFDC017680987004B2E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE0EFDC217680987004B2E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Shift AS/Time Shift AS-Prefix.pch";
+				INFOPLIST_FILE = "Time Shift AS/Time Shift AS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE0EFDC317680987004B2E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kenneth Murphy (9R4TE3E6DS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kenneth Murphy (9R4TE3E6DS)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Shift AS/Time Shift AS-Prefix.pch";
+				INFOPLIST_FILE = "Time Shift AS/Time Shift AS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5C71B202-D8D2-4838-B928-D7A7629DEC9C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5C71B202-D8D2-4838-B928-D7A7629DEC9C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE0EFDC517680987004B2E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Shift AS.app/Time Shift AS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Shift AS/Time Shift AS-Prefix.pch";
+				INFOPLIST_FILE = "Time Shift ASTests/Time Shift ASTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE0EFDC617680987004B2E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Time Shift AS.app/Time Shift AS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Time Shift AS/Time Shift AS-Prefix.pch";
+				INFOPLIST_FILE = "Time Shift ASTests/Time Shift ASTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0EFD8117680987004B2E9A /* Build configuration list for PBXProject "Time Shift AS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0EFDBF17680987004B2E9A /* Debug */,
+				BE0EFDC017680987004B2E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0EFDC117680987004B2E9A /* Build configuration list for PBXNativeTarget "Time Shift AS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0EFDC217680987004B2E9A /* Debug */,
+				BE0EFDC317680987004B2E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0EFDC417680987004B2E9A /* Build configuration list for PBXNativeTarget "Time Shift ASTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0EFDC517680987004B2E9A /* Debug */,
+				BE0EFDC617680987004B2E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0EFD7E17680987004B2E9A /* Project object */;
+}
