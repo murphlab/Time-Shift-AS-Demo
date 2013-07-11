@@ -238,31 +238,10 @@
 				BE0EFDCB17694F93004B2E9A /* Icons */,
 				BE0EFDD117695452004B2E9A /* Thumbnails */,
 				BE0EFDD017695435004B2E9A /* Videos */,
+				BECC729E178F592700D37637 /* Classes */,
 				BE009A9317696E30009CCC6F /* TimeShiftData.plist */,
 				BE0EFDA117680987004B2E9A /* MainStoryboard_iPhone.storyboard */,
 				BE0EFDA417680987004B2E9A /* MainStoryboard_iPad.storyboard */,
-				BE009A9D17698969009CCC6F /* DataSingleton.h */,
-				BE009A9E17698969009CCC6F /* DataSingleton.m */,
-				BE009AA31769A6A0009CCC6F /* MyNavigationController.h */,
-				BE009AA41769A6A0009CCC6F /* MyNavigationController.m */,
-				BE009A951769726B009CCC6F /* VideoListTableViewController.h */,
-				BE009A961769726B009CCC6F /* VideoListTableViewController.m */,
-				BE009ABE176B8AF6009CCC6F /* VideoItemTabelCell.h */,
-				BE009ABF176B8AF7009CCC6F /* VideoItemTabelCell.m */,
-				BE009AA9176A593E009CCC6F /* VideoDetailViewController.h */,
-				BE009AAA176A593E009CCC6F /* VideoDetailViewController.m */,
-				BE36651B178C92D8003FE603 /* VideoDetailCollectionViewController.h */,
-				BE36651C178C92D8003FE603 /* VideoDetailCollectionViewController.m */,
-				BEC83DB617839C7F0077C2C0 /* VideoDetailCell.h */,
-				BEC83DB717839C7F0077C2C0 /* VideoDetailCell.m */,
-				BE009AA01769A58E009CCC6F /* MapViewController.h */,
-				BE009AA11769A58E009CCC6F /* MapViewController.m */,
-				BE009AC5176D464A009CCC6F /* MyMapAnnotation.h */,
-				BE009AC6176D464B009CCC6F /* MyMapAnnotation.m */,
-				BE1E33F3177A78F1008C0B38 /* VideoPlayerViewController.h */,
-				BE1E33F4177A78F1008C0B38 /* VideoPlayerViewController.m */,
-				BE4F2004178CC65300282CBD /* AboutViewController.h */,
-				BE4F2005178CC65400282CBD /* AboutViewController.m */,
 				BE4F1FFF178CBF3300282CBD /* About */,
 				BE0EFD9017680987004B2E9A /* Supporting Files */,
 			);
@@ -350,6 +329,35 @@
 				BE4F2000178CBF8A00282CBD /* about.html */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		BECC729E178F592700D37637 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE009A9D17698969009CCC6F /* DataSingleton.h */,
+				BE009A9E17698969009CCC6F /* DataSingleton.m */,
+				BE009AA31769A6A0009CCC6F /* MyNavigationController.h */,
+				BE009AA41769A6A0009CCC6F /* MyNavigationController.m */,
+				BE009A951769726B009CCC6F /* VideoListTableViewController.h */,
+				BE009A961769726B009CCC6F /* VideoListTableViewController.m */,
+				BE009ABE176B8AF6009CCC6F /* VideoItemTabelCell.h */,
+				BE009ABF176B8AF7009CCC6F /* VideoItemTabelCell.m */,
+				BE009AA9176A593E009CCC6F /* VideoDetailViewController.h */,
+				BE009AAA176A593E009CCC6F /* VideoDetailViewController.m */,
+				BE36651B178C92D8003FE603 /* VideoDetailCollectionViewController.h */,
+				BE36651C178C92D8003FE603 /* VideoDetailCollectionViewController.m */,
+				BEC83DB617839C7F0077C2C0 /* VideoDetailCell.h */,
+				BEC83DB717839C7F0077C2C0 /* VideoDetailCell.m */,
+				BE009AA01769A58E009CCC6F /* MapViewController.h */,
+				BE009AA11769A58E009CCC6F /* MapViewController.m */,
+				BE009AC5176D464A009CCC6F /* MyMapAnnotation.h */,
+				BE009AC6176D464B009CCC6F /* MyMapAnnotation.m */,
+				BE1E33F3177A78F1008C0B38 /* VideoPlayerViewController.h */,
+				BE1E33F4177A78F1008C0B38 /* VideoPlayerViewController.m */,
+				BE4F2004178CC65300282CBD /* AboutViewController.h */,
+				BE4F2005178CC65400282CBD /* AboutViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
